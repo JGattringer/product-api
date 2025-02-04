@@ -1,0 +1,85 @@
+# Arquivo de ajuda
+HELP.md
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.m2/
+
+# Spring Boot
+**/application-*.properties
+**/application-*.yml
+!**/application.properties
+!**/application.yml
+spring-boot-*.pid
+
+# IDEs e Editores
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+
+# Arquivos Java compilados
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs e arquivos temporários
+logs/
+*.log
+*.tmp
+*.pid
+*.seed
+*.lock
+
+# Arquivos de banco de dados
+*.db
+*.h2.db
+*.h2.data
+*.mv.db
+*.trace.db
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.*.local
+
+# Arquivos de teste
+/test-output/
+.testcontainers*
+
+# Arquivos de segurança
+*.jks
+*.keystore
+*.p12
+*.pem
+*.cer
