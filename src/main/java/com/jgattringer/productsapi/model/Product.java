@@ -12,7 +12,7 @@ import jakarta.persistence.Table;
 public class Product {
     
     @Id //set as primary key
-    @Column(name = "id",unique = true) //not necessarry if the name of the coloumn if the same as the property
+    @Column(name = "id",unique = true) //not necessarry if the name of the coloumn is the same as the property
     private String id;
 
     @Column(name = "name")
